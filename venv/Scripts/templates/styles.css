@@ -1,0 +1,48 @@
+<style type="text/css">
+        html {
+    height: 100%;
+}
+body {
+  background-color:#212121;
+    padding: 2rem, 2rem, 4rem;
+}
+
+
+        h1 { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 72px; color: #EEEEEE; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Copperplate, "Copperplate Gothic Light", fantasy; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; 
+					border-color: black;
+
+		}
+
+        p {
+            color: #EEEEEE;
+            font-family: verdana;
+			font-size: 36px;
+        }
+		
+		hr {
+			border-color: lightblue
+		}
+		
+		a {
+			font-family: verdana;
+			font-size: 36px;
+
+
+		}
+a:link{
+  color:#A83C32;
+}
+a:visited{
+  color:#a83c32;
+}
+a:hover{
+  color:orange;
+}
+a:focus{
+  color:green;
+}
+a:active{
+  color:red;
+}
+
+</style>

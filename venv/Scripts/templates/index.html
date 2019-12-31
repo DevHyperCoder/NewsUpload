@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css"
+            href="styles.css">
+</head>
+<body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+
+<form action="upload" method="POST">
+
+
+    {% for doc_https_link,doc_link,doc_title in my_list %}
+
+    <a href={{doc_https_link}}/>{{doc_title}}</a>
+    <br/>
+    <a href=/upload/{{doc_link}}/>Upload the file to dropbox</a>
+    <br/>
+
+    {% endfor %}
+</form>
+</body>
+</html>

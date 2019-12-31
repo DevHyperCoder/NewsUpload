@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css"
+            href="styles.css">
+</head>
+<body>
+<h1>News Manager</h1>
+<hr/>
+
+<a href="/index/">Go to the other page</a>
+
+<br>
+
+<a href="localhost:5001/updropbox/">Upload to dropbox with google docs id</a>
+
+<p>Click on the Title to Upload it to google Docs</p>
+
+{% for title in ar_title%}
+<a href="/uploadgd/{{title}}/">{{title}}</a>
+<br/>
+{% endfor %}
+
+
+</body>
+</html>
