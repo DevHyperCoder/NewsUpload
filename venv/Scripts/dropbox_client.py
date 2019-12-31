@@ -17,7 +17,8 @@ def upload_to_dropbox(file_name,file_contents):
     targetfile = target + filename  # the target path and file name
 
     # Create a dropbox object using an API v2 key
-    API_KEY = "cG2kM3HuQMAAAAAAAAAANK93dG11lbL4Oh4IYgIQNMBzWjG6KrKoFoRNQskABtws"
+    #Enter your Dropbox API KEY here
+    API_KEY = "---------------------------------------"
     d = dropbox.Dropbox(API_KEY)
 
     # upload gives you metadata about the file
